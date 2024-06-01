@@ -39,8 +39,8 @@ const Page = () => {
 							<p className="my-5 md:my-0 md:mb-5 text-[12px] md:text-[0.9vw]">
 								Ready to elevate your online presence with a stunning,
 								meticulously crafted website that empowers you to take
-								ownership and control? Let's connect and bring your
-								vision to life.
+								ownership and control? Let&apos;s connect and bring
+								your vision to life.
 							</p>
 
 							<p className="mb-5 text-[12px] md:text-[0.9vw]">
