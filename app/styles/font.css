@@ -1,0 +1,9 @@
+/* styles/fonts.css */
+@font-face {
+  font-family: "Grandslang Roman";
+  src: url("../../fonts/GrandSlang-Roman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
