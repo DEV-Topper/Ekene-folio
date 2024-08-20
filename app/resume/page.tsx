@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Topper from "../../public/assets/EkenePic.jpeg";
+import Topper from "../../public/assets/ekenepic.jpg";
 import { motion } from "framer-motion";
 
 const Page = () => {
@@ -48,19 +48,26 @@ const Page = () => {
 								<ul>
 									<li>Degree in Engineering</li>
 									<li>
-										3+ years experience in Full-Stack Engineering, Web
+										7+ years of experience in Full-Stack Engineering
+										and Web Development
+									</li>
+								</ul>
+								<p>Within those 6+ years, I have:</p>
+								<ul>
+									<li>1 year of experience in UI / UX</li>
+									<li>3 years of experience in Software Design</li>
+									<li>
+										4½ years of experience in Front-end Web
 										Development
 									</li>
-								</ul>
-								<p>Within those 3+ years, I have:</p>
-								<ul>
-									<li>-6 months experience in UI / UX</li>
-									<li>-2½ years experience in Software Design</li>
 									<li>
-										-2½ years experience in Front-end Web Development
+										3 years of experience in Back-end Development
 									</li>
-									<li>-2½ years experience in Webflow Development</li>
+									<li>
+										6 months of experience in Webflow Development
+									</li>
 								</ul>
+
 								<h2 className="font-grandslang text-[24px]">
 									SKILLS
 								</h2>
@@ -121,6 +128,7 @@ const Page = () => {
 							initial={{ x: 100, opacity: 0 }}
 							animate={{ x: 0, opacity: 1 }}
 							transition={{ duration: 1 }}
+							className="ml-10"
 						>
 							<Image
 								alt="Ahmed Rufai"

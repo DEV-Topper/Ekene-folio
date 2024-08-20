@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Topper from "../../public/assets/EkenePic.jpeg";
+import Topper from "../../public/assets/ekenepic.jpg";
 import { motion } from "framer-motion";
 
 const Page = () => {
@@ -35,9 +35,9 @@ const Page = () => {
 							About
 						</motion.h1>
 						<div className="absolute md:static bg-[#dec8ae]  left-0 pb-20 md:pb-0 flex flex-col items-center w-[100%]">
-							<h5 className="font-grandslang text-[8vw] w-[85%] md:text-[2.5vw] font-light leading-[1.3] mt-10 md:w-[100%]">
-								I&apos;m Ekene. A designer, creator and problem
-								solver.
+							<h5 className="font-grandslang text-[6vw] w-[85%] md:text-[2.5vw] font-light leading-[1.3] mt-10 md:w-[100%]">
+								I&apos;m Ekene. A software engineer proffering world
+								class solutions with technology..❤️👨🏾‍💻🖱️
 							</h5>
 
 							<div className="text-[14px] font-light space-y-8 w-[85%] md:w-full mt-8">
@@ -79,7 +79,7 @@ const Page = () => {
 								<p>
 									One of my favorite quotes comes from CodeLab Set 08
 									[MY SET]: <br />
-									<span className="font-grandslang leading-[1] text-[50px]">
+									<span className="font-grandslang leading-[1] text-[40px]">
 										&quot;push().beyondlimit&quot;
 									</span>
 								</p>
@@ -101,6 +101,7 @@ const Page = () => {
 							initial={{ x: 100, opacity: 0 }}
 							animate={{ x: 0, opacity: 1 }}
 							transition={{ duration: 0.5 }}
+							className="ml-5"
 						>
 							<Image
 								alt="Ahmed Rufai"
