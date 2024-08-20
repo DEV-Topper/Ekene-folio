@@ -140,7 +140,7 @@ const Page = () => {
 					<div className="bg-white p-8 rounded-lg shadow-lg text-center">
 						<h2 className="text-lg font-bold mb-4">Heads Up!</h2>
 						<p>
-							Before you go, don't forget to check out the work,
+							Before you go, don&apos;t forget to check out the work,
 							about, resume, contact, and skills sections!
 						</p>
 					</div>
