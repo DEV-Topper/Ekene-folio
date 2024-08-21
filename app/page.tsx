@@ -64,6 +64,7 @@ const Page = () => {
 							<p>
 								Full-Stack Engineer / Web Designer / UI/UX Designer
 							</p>
+							<p>With over 7+ years of experience</p>
 							<p>
 								Currently working part-time as a Testing Manager at{" "}
 								<Link
@@ -73,12 +74,21 @@ const Page = () => {
 									NEXT
 								</Link>
 							</p>
+							<p>
+								And founder of{" "}
+								<Link
+									href={"https://www.instagram.com/dev_topper/"}
+									className="hover:line-through transition-all duration-300 underline font-medium cursor-pointer"
+								>
+									Dev-Topper
+								</Link>
+							</p>
 						</div>
 					</div>
 				</center>
 
 				<center>
-					<div className="lg:w-full w-[85%] text-start font-grandslang uppercase h-full lg:h-[85%] font-thin text-[18vw] md:text-[9vw] leading-[1] lg:text-[9.4vw] lg:leading-[0.87] justify-start md:justify-center flex flex-col">
+					<div className=" mt-5 lg:w-full w-[85%] text-start font-grandslang uppercase h-full lg:h-[85%] font-thin text-[18vw] md:text-[9vw] leading-[1] lg:text-[9.4vw] lg:leading-[0.87] justify-start md:justify-center flex flex-col">
 						<div className="">
 							<p>
 								<Link
