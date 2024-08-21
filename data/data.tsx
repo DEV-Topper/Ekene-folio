@@ -1,7 +1,7 @@
 import { iWork } from "@/services/interfaces";
 import next from "../public/assets/next.png";
 import workShotNext from "../public/assets/workShotNext.png";
-import NextProgram from "../public/assets/nextProgramShot.png";
+import NextProgram from "../public/assets/topkemabt.png";
 import headwind from "../public/assets/headwind_shot.png";
 import headwindWork from "../public/assets/head_work.png";
 import headPro from "../public/assets/head_pro.png";
@@ -12,8 +12,8 @@ import hulushot from "../public/assets/hulushot.png";
 // import hello_work from "../public/assets/hello_work.png";
 import revie from "../public/assets/revie.png";
 import revieShot from "../public/assets/revieShot.png";
-import tgImg from "../public/assets/tgImg.png";
-import tgShot from "../public/assets/tgShot.png";
+import tgImg from "../public/assets/tomkemHome.png";
+import tgShot from "../public/assets/topkemprice.png";
 
 export const workData: iWork[] = [
 	{
@@ -172,35 +172,39 @@ export const workData: iWork[] = [
 			"For this project, I utilized MongoDB as the primary database due to its scalability and flexibility in handling large volumes of data. I employed Express to set up the server, ensuring efficient routing and middleware management. The server was meticulously structured to handle various API requests seamlessly. For hosting, I chose Render, which provided a reliable and robust platform to deploy the application, ensuring consistent uptime and smooth performance. The combination of these technologies allowed for the creation of a powerful, efficient, and scalable backend solution that meets the demands of the Home Insight platform.",
 		workingShot: revieShot,
 	},
-	// {
-	// 	name: "Task Guardian",
-	// 	type: "Full Stack Development",
-	// 	shortInfo:
-	// 		"Task Guardian is a comprehensive task management platform developed primarily for leisure and to improve my full stack development skills.",
-	// 	role: "Full Stack Developer",
-	// 	responsibility:
-	// 		"Full responsibility of building from scratch, including both frontend and backend development",
-	// 	url: "task-guardian2-0.vercel.app",
-	// 	lgImg: tgImg,
-	// 	workingShot: tgShot,
-	// 	usedProgram: NextProgram,
-	// 	demoVid: "/assets/tgD.mp4",
-	// 	info: (
-	// 		<div className="mt-10">
-	// 			This project was solely built by me, driven by a desire for
-	// 			self-improvement and to enhance my full stack development
-	// 			skills. Task Guardian is a comprehensive task management
-	// 			platform.
-	// 			<p className="mt-10">
-	// 				The purpose of this platform is to provide users with an
-	// 				intuitive and efficient way to manage their tasks and
-	// 				projects. It offers a range of features such as task
-	// 				creation, progress tracking, and deadline reminders, all
-	// 				designed to help users stay organized and productive.
-	// 			</p>
-	// 		</div>
-	// 	),
-	// 	usedProgramTxt:
-	// 		"For this project, I utilized React for the frontend due to its efficiency in creating dynamic user interfaces. The backend was built with Node.js and Express, ensuring robust server-side operations. MongoDB was chosen as the database for its scalability and flexibility. I hosted the application on Vercel, which provided a reliable and performant platform for deployment. This full stack build allowed me to enhance my skills across various technologies and create a functional and user-friendly task management tool.",
-	// },
+	{
+		name: "Top-Kem",
+		type: "Full Stack Development",
+		shortInfo:
+			"Topkem is a professional cleaning service offering expert cleaning solutions for residential, office, and commercial spaces.",
+		role: "Full Stack Developer",
+		responsibility:
+			"Full responsibility of building from scratch, including both frontend and backend development",
+		url: "topkem.org",
+		lgImg: tgImg,
+		workingShot: tgShot,
+		usedProgram: NextProgram,
+		demoVid: "/assets/topkem.mp4",
+		info: (
+			<div className="mt-10">
+				This project was solely built by me, driven by a passion for
+				enhancing my full-stack development skills and delivering a
+				high-quality user experience. Topkem is a premier cleaning
+				service website dedicated to offering professional cleaning
+				solutions for homes, offices, and commercial spaces.
+				<p className="mt-10">
+					The purpose of this platform is to provide users with a
+					streamlined and efficient way to access top-notch cleaning
+					services. It offers a user-friendly interface for scheduling
+					cleaning appointments, managing service requests, and
+					receiving updates. Topkem ensures that every interaction is
+					smooth and intuitive, helping users to easily book the right
+					cleaning service for their needs and manage their cleaning
+					requirements effectively.
+				</p>
+			</div>
+		),
+		usedProgramTxt:
+			"For this project, I utilized React for the frontend due to its efficiency in creating dynamic user interfaces. The backend was built with Node.js and Express, ensuring robust server-side operations. MongoDB was chosen as the database for its scalability and flexibility. I hosted the application on WhoGo Host, which provided a reliable and high-performance platform for deployment. This full-stack build allowed me to enhance my skills across various technologies and deliver a functional, user-friendly cleaning service platform.",
+	},
 ];
