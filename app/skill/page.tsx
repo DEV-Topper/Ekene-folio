@@ -12,7 +12,9 @@ import firebase from "../../public/assets/fireBase.png";
 import cloudfare from "../../public/assets/cloudfare.png";
 import github from "../../public/assets/github.png";
 import daisyUI from "../../public/assets/daisyUI.png";
-import nextjs from "../../public/assets/nodeJS.png";
+import nodejs from "../../public/assets/nodeJS.png";
+import Nextjs from "../../public/assets/nextjspic.png";
+import figma from "../../public/assets/figmaLogo.png";
 import vercel from "../../public/assets/vercelPic.png";
 import tailwind from "../../public/assets/tailwindpic.png";
 import redux from "../../public/assets/redux.png";
@@ -75,7 +77,8 @@ const skills: Skill[] = [
 	{ src: react, alt: "React" },
 	{ src: vite, alt: "Vite" },
 	{ src: mongodb, alt: "MongoDB" },
-	{ src: nextjs, alt: "Next.js" },
+	{ src: nodejs, alt: "Node.js" },
+	{ src: Nextjs, alt: "Next.js" },
 	{ src: cloudfare, alt: "Cloudflare" },
 	{ src: github, alt: "GitHub" },
 	{ src: firebase, alt: "Firebase" },
@@ -89,6 +92,7 @@ const skills: Skill[] = [
 	{ src: express, alt: "Express" },
 	{ src: styledcomponent, alt: "Styled Component" },
 	{ src: render, alt: "Render" },
+	{ src: figma, alt: "Figma" },
 	{ src: cloudinary, alt: "Cloudinary" },
 ];
 
