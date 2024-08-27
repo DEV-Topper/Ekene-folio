@@ -64,7 +64,7 @@ const Page = () => {
 							<p>
 								Full-Stack Engineer / Web Designer / UI/UX Designer
 							</p>
-							<p>With over 7+ years of experience</p>
+							<p>With over 5+ years of experience</p>
 							<p>
 								Currently working part-time as a Testing Manager at{" "}
 								<Link
@@ -74,7 +74,7 @@ const Page = () => {
 									NEXT
 								</Link>
 							</p>
-							<p>
+							{/* <p>
 								And founder of{" "}
 								<Link
 									href={"https://www.instagram.com/dev_topper/"}
@@ -82,7 +82,7 @@ const Page = () => {
 								>
 									Dev-Topper
 								</Link>
-							</p>
+							</p> */}
 						</div>
 					</div>
 				</center>

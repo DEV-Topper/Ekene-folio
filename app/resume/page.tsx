@@ -48,17 +48,16 @@ const Page = () => {
 								<ul>
 									<li>Degree in Engineering</li>
 									<li>
-										7+ years of experience in Full-Stack Engineering
+										5+ years of experience in Full-Stack Engineering
 										and Web Development
 									</li>
 								</ul>
-								<p>Within those 6+ years, I have:</p>
+								<p>Within those 5+ years, I have:</p>
 								<ul>
-									<li>1 year of experience in UI / UX</li>
+									<li>6 months of experience in UI / UX</li>
 									<li>3 years of experience in Software Design</li>
 									<li>
-										4½ years of experience in Front-end Web
-										Development
+										3 years of experience in Front-end Web Development
 									</li>
 									<li>
 										3 years of experience in Back-end Development
